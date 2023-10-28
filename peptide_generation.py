@@ -71,7 +71,7 @@ def runCommand():
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser('Replace atoms of elements')
+    parser = argparse.ArgumentParser('Generate peptides')
     parser.add_argument('--debug', action='store_true')
     parser.add_argument('--print-options', action='store_true')
     parser.add_argument('--run-command', action='store_true')
